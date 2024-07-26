@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4');
+  api.versionsFrom('3.0');
   api.export('CDN','server');
   api.export('CDN','client');
   api.use('webapp','server');
